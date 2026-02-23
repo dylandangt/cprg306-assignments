@@ -1,6 +1,6 @@
 import Item from "./item";
 
-function ItemList() {
+export default function ItemList() {
 
     const item1 = {
     name: "milk, 4 L 🥛",
@@ -91,5 +91,3 @@ function ItemList() {
         </div>
     );
 }
-
-export default ItemList;
